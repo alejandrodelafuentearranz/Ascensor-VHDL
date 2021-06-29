@@ -1,0 +1,5 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+Failure: [SUCCESS]: simulation finished.
+Time: 545100 ps  Iteration: 0  Process: /MOTOR_TB/line__57  File: C:/Users/Alejandro/SED/Trabajo_v11/Trabajo_v1.srcs/sim_1/new/motor_tb.vhd
+$finish called at time : 545100 ps : File "C:/Users/Alejandro/SED/Trabajo_v11/Trabajo_v1.srcs/sim_1/new/motor_tb.vhd" Line 144

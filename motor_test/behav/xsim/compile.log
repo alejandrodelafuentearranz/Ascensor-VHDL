@@ -1,0 +1,7 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Alejandro/SED/Trabajo_v11/Trabajo_v1.srcs/sources_1/new/motor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MOTOR'
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/Alejandro/SED/Trabajo_v11/Trabajo_v1.srcs/sources_1/new/motor.vhd:62]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/Alejandro/SED/Trabajo_v11/Trabajo_v1.srcs/sources_1/new/motor.vhd:64]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/Alejandro/SED/Trabajo_v11/Trabajo_v1.srcs/sources_1/new/motor.vhd:66]
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Alejandro/SED/Trabajo_v11/Trabajo_v1.srcs/sim_1/new/motor_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MOTOR_TB'
