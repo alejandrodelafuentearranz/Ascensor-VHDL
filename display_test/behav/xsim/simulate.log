@@ -1,0 +1,5 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+Failure: [SUCCESS]: simulation finished.
+Time: 60 ns  Iteration: 0  Process: /DISPLAY_DECODER_TB/line__41  File: C:/Users/Alejandro/SED/Trabajo_v11/Trabajo_v1.srcs/sim_1/new/display_tb.vhd
+$finish called at time : 60 ns : File "C:/Users/Alejandro/SED/Trabajo_v11/Trabajo_v1.srcs/sim_1/new/display_tb.vhd" Line 54
