@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Jun 21 10:52:58 2021
+# Process ID: 15652
+# Current directory: C:/Users/Alejandro/SED/Trabajo_v11
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5416 C:\Users\Alejandro\SED\Trabajo_v11\Trabajo_v1.xpr
+# Log file: C:/Users/Alejandro/SED/Trabajo_v11/vivado.log
+# Journal file: C:/Users/Alejandro/SED/Trabajo_v11\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Alejandro/SED/Trabajo_v11/Trabajo_v1.xpr
+update_compile_order -fileset sources_1
+launch_simulation -simset [get_filesets top_test ]
+open_wave_config C:/Users/Alejandro/SED/Trabajo_v11/top_tb_behav.wcfg
+source TOP_TB.tcl
+close_sim
+close_project

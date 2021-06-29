@@ -1,0 +1,97 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Jun 28 16:31:00 2021
+# Process ID: 15996
+# Current directory: C:/Users/pablo/Downloads/Trabajo_v2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15492 C:\Users\pablo\Downloads\Trabajo_v2\Trabajo_v1.xpr
+# Log file: C:/Users/pablo/Downloads/Trabajo_v2/vivado.log
+# Journal file: C:/Users/pablo/Downloads/Trabajo_v2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/pablo/Downloads/Trabajo_v2/Trabajo_v1.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/Alejandro/SED/Trabajo_v11' since last save.
+WARNING: [filemgmt 56-2] Default IP Output Path : Could not find the directory 'C:/Users/pablo/Downloads/Trabajo_v2/Trabajo_v1.gen/sources_1', nor could it be found using path 'C:/Users/Alejandro/SED/Trabajo_v11/Trabajo_v1.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:09 . Memory (MB): peak = 1086.594 ; gain = 0.000
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7a100tcsg324-1
+Top: TOP
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1665.340 ; gain = 245.676
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'TOP' [C:/Users/pablo/Downloads/Trabajo_v2/Trabajo_v1.srcs/sources_1/new/top.vhd:23]
+	Parameter CLKIN_FREQ bound to: 100000000 - type: integer 
+	Parameter CLKIN_FREQ bound to: 100000000 - type: integer 
+	Parameter CLKOUT_FREQ bound to: 1000 - type: integer 
+INFO: [Synth 8-3491] module 'CLK_DIVIDER' declared at 'C:/Users/pablo/Downloads/Trabajo_v2/Trabajo_v1.srcs/sources_1/new/clk_divider.vhd:7' bound to instance 'clkdiv_1' of component 'CLK_DIVIDER' [C:/Users/pablo/Downloads/Trabajo_v2/Trabajo_v1.srcs/sources_1/new/top.vhd:125]
+INFO: [Synth 8-638] synthesizing module 'CLK_DIVIDER' [C:/Users/pablo/Downloads/Trabajo_v2/Trabajo_v1.srcs/sources_1/new/clk_divider.vhd:18]
+	Parameter CLKIN_FREQ bound to: 100000000 - type: integer 
+	Parameter CLKOUT_FREQ bound to: 1000 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'CLK_DIVIDER' (1#1) [C:/Users/pablo/Downloads/Trabajo_v2/Trabajo_v1.srcs/sources_1/new/clk_divider.vhd:18]
+	Parameter WIDTH bound to: 5 - type: integer 
+	Parameter INIT bound to: 5'b10000 
+INFO: [Synth 8-3491] module 'SYNCHRONIZER' declared at 'C:/Users/pablo/Downloads/Trabajo_v2/Trabajo_v1.srcs/sources_1/imports/src/synchronizer.vhd:19' bound to instance 'synchro_1' of component 'SYNCHRONIZER' [C:/Users/pablo/Downloads/Trabajo_v2/Trabajo_v1.srcs/sources_1/new/top.vhd:137]
+INFO: [Synth 8-638] synthesizing module 'SYNCHRONIZER' [C:/Users/pablo/Downloads/Trabajo_v2/Trabajo_v1.srcs/sources_1/imports/src/synchronizer.vhd:33]
+	Parameter WIDTH bound to: 5 - type: integer 
+	Parameter SYNC_STAGES bound to: 3 - type: integer 
+	Parameter PIPELINE_STAGES bound to: 1 - type: integer 
+	Parameter INIT bound to: 5'b10000 
+INFO: [Synth 8-256] done synthesizing module 'SYNCHRONIZER' (2#1) [C:/Users/pablo/Downloads/Trabajo_v2/Trabajo_v1.srcs/sources_1/imports/src/synchronizer.vhd:33]
+INFO: [Synth 8-3491] module 'MAQUINA_ESTADOS' declared at 'C:/Users/pablo/Downloads/Trabajo_v2/Trabajo_v1.srcs/sources_1/new/maquina_estados.vhd:5' bound to instance 'fsm_1' of component 'MAQUINA_ESTADOS' [C:/Users/pablo/Downloads/Trabajo_v2/Trabajo_v1.srcs/sources_1/new/top.vhd:150]
+INFO: [Synth 8-638] synthesizing module 'MAQUINA_ESTADOS' [C:/Users/pablo/Downloads/Trabajo_v2/Trabajo_v1.srcs/sources_1/new/maquina_estados.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'MAQUINA_ESTADOS' (3#1) [C:/Users/pablo/Downloads/Trabajo_v2/Trabajo_v1.srcs/sources_1/new/maquina_estados.vhd:19]
+INFO: [Synth 8-3491] module 'REQ_REGISTER' declared at 'C:/Users/pablo/Downloads/Trabajo_v2/Trabajo_v1.srcs/sources_1/new/req_register.vhd:5' bound to instance 'reqreg_1' of component 'REQ_REGISTER' [C:/Users/pablo/Downloads/Trabajo_v2/Trabajo_v1.srcs/sources_1/new/top.vhd:167]
+INFO: [Synth 8-638] synthesizing module 'REQ_REGISTER' [C:/Users/pablo/Downloads/Trabajo_v2/Trabajo_v1.srcs/sources_1/new/req_register.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'REQ_REGISTER' (4#1) [C:/Users/pablo/Downloads/Trabajo_v2/Trabajo_v1.srcs/sources_1/new/req_register.vhd:15]
+INFO: [Synth 8-3491] module 'MOTOR' declared at 'C:/Users/pablo/Downloads/Trabajo_v2/Trabajo_v1.srcs/sources_1/new/motor.vhd:5' bound to instance 'motor_1' of component 'MOTOR' [C:/Users/pablo/Downloads/Trabajo_v2/Trabajo_v1.srcs/sources_1/new/top.vhd:177]
+INFO: [Synth 8-638] synthesizing module 'MOTOR' [C:/Users/pablo/Downloads/Trabajo_v2/Trabajo_v1.srcs/sources_1/new/motor.vhd:18]
+	Parameter TICKS_PER_FLOOR bound to: 2000 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'MOTOR' (5#1) [C:/Users/pablo/Downloads/Trabajo_v2/Trabajo_v1.srcs/sources_1/new/motor.vhd:18]
+INFO: [Synth 8-3491] module 'DISPLAY_DECODER' declared at 'C:/Users/pablo/Downloads/Trabajo_v2/Trabajo_v1.srcs/sources_1/new/display_decoder.vhd:5' bound to instance 'udis' of component 'DISPLAY_DECODER' [C:/Users/pablo/Downloads/Trabajo_v2/Trabajo_v1.srcs/sources_1/new/top.vhd:186]
+INFO: [Synth 8-638] synthesizing module 'DISPLAY_DECODER' [C:/Users/pablo/Downloads/Trabajo_v2/Trabajo_v1.srcs/sources_1/new/display_decoder.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'DISPLAY_DECODER' (6#1) [C:/Users/pablo/Downloads/Trabajo_v2/Trabajo_v1.srcs/sources_1/new/display_decoder.vhd:12]
+INFO: [Synth 8-3491] module 'DISPLAY_REFRESH' declared at 'C:/Users/pablo/Downloads/Trabajo_v2/Trabajo_v1.srcs/sources_1/new/display_refresh.vhd:4' bound to instance 'udisplay_refresh' of component 'DISPLAY_REFRESH' [C:/Users/pablo/Downloads/Trabajo_v2/Trabajo_v1.srcs/sources_1/new/top.vhd:192]
+INFO: [Synth 8-638] synthesizing module 'DISPLAY_REFRESH' [C:/Users/pablo/Downloads/Trabajo_v2/Trabajo_v1.srcs/sources_1/new/display_refresh.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'DISPLAY_REFRESH' (7#1) [C:/Users/pablo/Downloads/Trabajo_v2/Trabajo_v1.srcs/sources_1/new/display_refresh.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'TOP' (8#1) [C:/Users/pablo/Downloads/Trabajo_v2/Trabajo_v1.srcs/sources_1/new/top.vhd:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1717.148 ; gain = 297.484
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1717.148 ; gain = 297.484
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1717.148 ; gain = 297.484
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1717.148 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/pablo/Downloads/Trabajo_v2/Trabajo_v1.srcs/constrs_1/imports/Trabajo_v11/Nexys-4-DDR-Master.xdc]
+Finished Parsing XDC File [C:/Users/pablo/Downloads/Trabajo_v2/Trabajo_v1.srcs/constrs_1/imports/Trabajo_v11/Nexys-4-DDR-Master.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1829.848 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:15 ; elapsed = 00:00:09 . Memory (MB): peak = 1940.812 ; gain = 521.148
+26 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1940.812 ; gain = 815.926
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Jun 28 17:44:17 2021...
