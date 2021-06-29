@@ -1,0 +1,14 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Trabajo_v1.srcs/sources_1/new/clk_divider.vhd" \
+"../../../../Trabajo_v1.srcs/sources_1/new/display_decoder.vhd" \
+"../../../../Trabajo_v1.srcs/sources_1/new/display_refresh.vhd" \
+"../../../../Trabajo_v1.srcs/sources_1/new/maquina_estados.vhd" \
+"../../../../Trabajo_v1.srcs/sources_1/new/motor.vhd" \
+"../../../../Trabajo_v1.srcs/sources_1/new/req_register.vhd" \
+"../../../../Trabajo_v1.srcs/sources_1/imports/src/synchronizer.vhd" \
+"../../../../Trabajo_v1.srcs/sources_1/new/top.vhd" \
+"../../../../Trabajo_v1.srcs/sim_1/new/top_tb.vhd" \
+
+# Do not sort compile order
+nosort

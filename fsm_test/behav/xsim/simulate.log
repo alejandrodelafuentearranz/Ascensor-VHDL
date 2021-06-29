@@ -1,0 +1,5 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+Failure: [SUCCESS]: simulation finished.
+Time: 595100 ps  Iteration: 0  Process: /MAQUINA_ESTADOS_TB/stim_proc  File: C:/Users/Alejandro/SED/Trabajo_v11/Trabajo_v1.srcs/sim_1/new/maquina_estados_tb.vhd
+$finish called at time : 595100 ps : File "C:/Users/Alejandro/SED/Trabajo_v11/Trabajo_v1.srcs/sim_1/new/maquina_estados_tb.vhd" Line 112

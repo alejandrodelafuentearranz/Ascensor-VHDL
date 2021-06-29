@@ -1,0 +1,5 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+Failure: [SUCCESS]: simulation finished.
+Time: 12014375 us  Iteration: 0  Process: /TOP_TB/stim_proc  File: C:/Users/Alejandro/SED/Trabajo_v11/Trabajo_v1.srcs/sim_1/new/top_tb.vhd
+$finish called at time : 12014375 us : File "C:/Users/Alejandro/SED/Trabajo_v11/Trabajo_v1.srcs/sim_1/new/top_tb.vhd" Line 95
